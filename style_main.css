@@ -249,7 +249,7 @@ img {
 }
 
 #footer {
-    padding-top: 24px;
+    padding-top: -24px;
     padding-bottom: 24px;
     font-family: 'Noto Sans CJK KR Black', sans-serif;
     font-size: 16px;
