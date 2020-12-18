@@ -1,0 +1,72 @@
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1117_about.css">
+    <script src="jquery-3.5.1.js"></script>
+    <title>JEONGYEONG & SOHEE</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/> 
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header">
+
+            <div id="site-title">JEONGYEONG & SOHEE</div>
+            
+                <ul id="mainmenu">
+                    <li><a href="#">About</a>
+                        <ul class="submenu">
+                            <li>SeoJeongYeong</li>
+                            <li>SimSoHee</li>
+                        </ul>
+                    </li>
+                </ul> <!-- ul 닫는 태그 누락되어 있어 추가함 -->
+        </div>
+        
+        <div id="main">
+
+            <section id="section1">
+                <p>
+                    About
+                </p>
+            </section>
+
+            <section id="section2">
+                <div id="s2l">
+                    <a href="1117_sjy.html">
+                    <img src="images/about_sjy.png"></a>
+                </div>
+                <div id="s2r">
+                    <div class="s2r-sjy">
+                       <a>Seo jeong yeong</a>
+                    </div>
+                    
+                    <div class="s2r-ssh">
+                        <a>Sim so hee</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="footer">
+            &copy JEONGYEONG & SOHEE
+        </div>
+
+    </div>
+
+<script>
+$(document).ready(function(){
+    $("#mainmenu>li").on('mouseover', function(){
+        $(this).children(".submenu").stop().fadeIn(300);
+    });
+    $("#mainmenu>li").on('mouseleave', function(){
+        $(this).children(".submenu").stop().fadeOut(300);
+    });
+});
+</script>
+</body>
+    
+</html>
