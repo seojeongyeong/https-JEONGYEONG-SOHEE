@@ -1,0 +1,131 @@
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style_sjy.css">
+    <script src="jquery-3.5.1.js"></script>
+    <title>JEONGYEONG & SOHEE</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header">
+
+            <div id="site-title">JEONGYEONG & SOHEE</div>
+            
+                <ul id="mainmenu">
+                    <li><a href="#">About</a>
+                        <ul class="submenu">
+                            <li>SeoJeongYeong</li>
+                            <li>SimSoHee</li>
+                        </ul>
+                    </li>
+        </div>
+        
+        <div id="main">
+
+            <section id="section_1">
+                <p>
+                Seo jeong yeong
+                </p>
+            </section>
+
+            <section id="section_2">
+                <p>
+                    Seo jeong yeong
+                </p>
+            </section>
+
+            <section id="section_3">
+                <div id="s3l">
+                    <img src="images/about_sjy.png">
+                </div>
+                <div id="s3r">
+                    <div class="s3r-cell_1">
+                        <p>
+                        영상편집, 모션그래픽디자이너
+                        </p>
+                    </div>
+                    <div class="s3r-cell_2">
+                        <p>
+                        대구가톨릭대학교 재학
+                        </p>
+                        <p>
+                        영상편집, 모션그래픽 외 브랜딩, UIUX 경험
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section_4">
+                <p>
+                    Awords / Career
+                </p>
+            </section>
+
+            <section id="section_5">
+                <p>
+                    2020 디지로그 멘토
+                </p>
+                <p>
+                    2020 코코시애나 패키지 디자인
+                </p>
+                <p>
+                    2020 라우드소싱 로고 1차 통과
+                </p>
+                <p>
+                    2020 미술과외 활동
+                </p>
+                <p>
+                    2020 창직프로젝트 참여
+                </p>
+                <p>
+                    2020 한국 한의학 진흥원 홍보 콘텐츠 공모전
+                </p>
+                <p>
+                    2019 과제전 디지털비디오 노력작
+                </p>
+            </section>
+
+            <section id="section_6">
+                <p>
+                    connect
+                </p>
+            </section>
+
+            <section id="section_7">
+                <div id="s7l">
+                    <p>
+                        Mail
+                    </p>
+                </div>
+                <div id="s7r">
+                    <p>
+                        Behance
+                    </p>
+                </div>
+            </section>
+
+        </div>
+
+    <div id="footer">
+        &copy JEONGYEONG & SOHEE
+    </div>
+
+    </div>
+
+<script>
+$(document).ready(function(){
+    $("#mainmenu>li").on('mouseover', function(){
+        $(this).children(".submenu").stop().fadeIn(300);
+    });
+    $("#mainmenu>li").on('mouseleave', function(){
+        $(this).children(".submenu").stop().fadeOut(300);
+    });
+});
+</script>
+</body>
+    
+</html>
